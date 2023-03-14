@@ -23,10 +23,14 @@
 - Reserved words cannot be used as identifiers.
 
 #### Lexer
-- Lexical Analyzer
-- The first phase of Compilation! (Lexical analysis)
+- LEXical analyzER
+- The first phase of Compilation!
+- Scan and identify a finite set of valid tokens that belong to the language in hand.
 - Turns the Source code into a stream of Tokens.
-- How to implement
+- Generates an error if a token is invalid.
+- How to build a Lexer
 	- Write from scratch
-	- Use Lexical Analyzer Generator
-		- Put Regular Expressions in the generator.
+	- Use Lexical Analyzer Generator with regular expressions.
+ - Implementing Lexer
+	 - Specify each lexical token using [[regular_expression]].
+	 - Using regular expression strings, [[finite_automata]] processes input strings and reaches its final state.
