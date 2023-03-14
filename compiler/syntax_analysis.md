@@ -1,0 +1,2 @@
+- Understanding the structure of a phrase.
+- **Parser verifies that token stream is valid.**

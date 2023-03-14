@@ -1,0 +1,6 @@
+- Understanding the meaning of a sentence.
+- **Check if each expression is correct**
+- Example
+	- c = d  -----> ID ASSIGN ID
+	- c is a char and d is a pointer
+	- The ID type mismatches.
