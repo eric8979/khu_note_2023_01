@@ -1,4 +1,4 @@
-- **Lexcial analyzer divides stream into tokens.**
+- **Lexical analyzer divides stream into tokens.**
 - Produce a stream of Names, Keywords, and Punctuation marks from a stream of chars.
 
 - Example
@@ -24,7 +24,8 @@
 
 #### Lexer
 - Lexical Analyzer
-- The first phase of compilation! (Lexical analysis)
+- The first phase of Compilation! (Lexical analysis)
+- Turns the Source code into a stream of Tokens.
 - How to implement
 	- Write from scratch
 	- Use Lexical Analyzer Generator
