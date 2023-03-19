@@ -1,5 +1,5 @@
 - mynum : 47
-chapter 0 ~ 1
+- Contents : chapter 0 ~ 1
 
 ## Complements
 
@@ -22,6 +22,7 @@ chapter 0 ~ 1
 ## Binary code
 
 #### BCD code
+- 10 decimal to binary
 - 4-bit code for one decimal
 - e.g. (185)10 = (0001 1000 0101)BCD
 - When addition if sum is greater than 1001, add 0110 to obtain correct BCD.
@@ -36,3 +37,36 @@ chapter 0 ~ 1
             - e.g. 1 (0001) 's complement is 8 (1110).
 
 Q. How computer represents negative int?
+
+### Gray code
+- One bit change on a increment.
+- Example
+	- 0110 == 4
+	- 0111 == 5
+ - How to make a gray code
+ - Method 1
+	 - G1
+		 - 0, 1
+	 - G2
+		 - 0 G1, 1 G1^-1
+		 - ^-1 means inverse of the gray code
+		 - 0 0, 0 1  ,  1 1, 1 0
+- Method 2 (Using 8421 code)
+	- 8421 -> gray (XOR)
+	- copying left first digit and comparing digits using XOR.
+	- Example
+		- 0111 -> 0100
+
+### ASCII code
+e.g. '5' -> ()0110101
+- the () is empty. The parity bit
+- Even parity
+	- Add 0 or 1 to make 1's in the code even.
+- Odd parity
+	- Add 0 or 1 to make 1's in the code odd.
+e.g. 5 -> 00...000101
+
+
+### Register
+
+### Binary logic

@@ -1,0 +1,12 @@
+### Boolean Algebra
+- Closure
+	- for all a, b ∈ N, if a * b = c and c ∈ N
+	- N is **closed** with the operation.
+- Identity element
+	- for all x ∈ S, e * x = x * e = x
+	- e is identity element.
+	- e.g. 1 in multiplication, 0 in summation
+- Inverse
+	- for x, y ∈ S  if x * y = e
+- Distributive law
+	- x * ( y + z ) = x * y + x * z
