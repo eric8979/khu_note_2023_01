@@ -1,4 +1,4 @@
-1. Lexical Analysis
-2. Syntax Analysis
-3. Semantic Analysis
-4. Optimization
+1. [[lexical_analysis]]
+2. [[syntax_analysis]]
+3. [[semantic_analysis]]
+4. [[optimization]]

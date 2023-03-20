@@ -1,0 +1,4 @@
+- Σ
+	- Finite set of input symbols 
+- ε closure(P)
+	- Set of states which are reachable from state P on ε transitions (and itself).
