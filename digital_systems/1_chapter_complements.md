@@ -23,13 +23,13 @@
  
 #### Diminished Radix complement
 - (r-1)'s complement of N is ...
-	- ((r<sup>n</sup>)-1) - N
+	- (r<sup>n</sup>-1) - N
 - e.g. (1's complement)
 	- (1011000)<sub>2</sub> & (0100111)<sub>2</sub>
 
 #### Radix complement
 - r's complement of an n-digit number N is ...
-	- (r<sup>n</sup>) - N  (if N != 0)
+	- r<sup>n</sup> - N  (if N != 0)
 	- 0 (if N = 0)
 - e.g. (2's complement)
 	- (1011000)<sub>2</sub> & (0101000)<sub>2</sub>

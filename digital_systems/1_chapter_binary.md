@@ -34,17 +34,18 @@
 
 ### Gray code
 - Only one bit change on a increment.
+- Good for error detecting.
 - Example
 	- 0010 == 3
 	- 0110 == 4
 	- 0111 == 5
- - How to make a gray code
+ - **How to make gray code**
  - Method 1
 	 - G1
 		 - 0, 1
 	 - G2
-		 - 0 G1, 1 G1^-1
-		 - ^-1 means inverse of the gray code
+		 - 0 G1, 1 G1<sup>-1</sup>
+		 - -1 means inverse of the gray code
 		 - 0 0, 0 1  ,  1 1, 1 0
 - Method 2 (Using 8421 code)
 	- 8421 -> gray (XOR)
