@@ -17,7 +17,7 @@
 - image error pg.37 - depth should be number of sheets.
 
 ### Class
-- User `return` rather than `cout` for reusability.
+- Use `return` rather than `cout` for reusability.
 
 
 - review list 
