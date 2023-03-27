@@ -13,3 +13,6 @@ Make Parser using Abstract syntax tree
 LR()
 ~ syntax analysis (2) pg.29 
 (before LR(1))
+
+### 3/21
+- Lexical Analysis fin
