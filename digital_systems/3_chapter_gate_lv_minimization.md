@@ -22,3 +22,23 @@
 - The formula using PI and EPI
 	- First write EPIs.
 	- Fill in the blanks with regular PIs.
+
+- Five variable map
+	- Create two tables.
+ 
+- Don't-care 
+	- X can be 0 or 1.
+
+- NAND, NOR Implementation
+	- NAND only (+invert)
+		- Change to SOP first
+		- e.g. x + y = (x + y)'' = (x'y')'
+	- AND invert = Invert OR pg.12 (a) == (b)
+
+- ⭐️Exclusive OR function
+	- **pg.17** 
+		- Can create semi-pure NAND gate implementation
+		- and pure NAND gate implementation
+	- Parity generation and checking 
+		- Same result as XOR gate. (p.18 : even)
+			- prep for when parity is odd case
