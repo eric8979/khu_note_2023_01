@@ -42,3 +42,30 @@
 	- Parity generation and checking 
 		- Same result as XOR gate. (p.18 : even)
 			- prep for when parity is odd case
+
+### HDL
+- VHDL
+- Verilog HDL
+	- keyword & identifier
+	- Check syntax of a circuit on pg.19
+	- + Gate delays and Test bench on pg.20
+	- Rules of Verilog HDL
+		- About 100 keywords:predefined lowercase identifier
+		- comments // , `/**/`
+		- Case sensitive
+		- wire interconnected
+	- Terms of Verilog HDL
+		- HDL
+		- Design entry
+		- logic simulatioin
+		- test bench
+		- logic synthesis
+		- timing verifiication
+		- fault simulation
+- HDL with boolean expressions
+	- True/False : 1/0
+	- and : &&
+	- or : ||
+	- not : ~, !
+- UDP 
+	- with truth-table
