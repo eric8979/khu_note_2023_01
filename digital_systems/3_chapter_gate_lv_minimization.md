@@ -69,3 +69,6 @@
 	- not : ~, !
 - UDP 
 	- with truth-table
+	- delays
+	- User-defined primitive
+		- For representing more complex logic than standard primitives.
