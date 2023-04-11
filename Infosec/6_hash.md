@@ -27,6 +27,7 @@
 	- e.g. CRC
 
 ### Preimage attack(CRC)
+- Find a message that has a specific hash value, without having access to the secret key used to compute the hash. (kind of Brute-forcing)
 - CRC has variations
 	- 32-bit
 	- 64-bit
