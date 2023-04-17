@@ -62,3 +62,9 @@
 		- pub_B = g ^ b mod p
 		- K = pub_A ^ b mod p
 	- Symmetric key **K** generated/shared!
+
+Re. p.13, p.14
+#### SSL
+- Asymmetric -> Symmetric
+- openSSL
+	- key (base64)
