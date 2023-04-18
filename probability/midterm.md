@@ -14,3 +14,6 @@
 	- `fx(x) = p[x=x]`
  
 - CDF (check photo)
+
+5.6.7.8 - quiz
+9,10,11 - final

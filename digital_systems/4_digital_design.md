@@ -28,3 +28,22 @@
 		- = xy+x'yz+xy'z
 		- = xy + (x'y+zy')z
 		- = xy + (x𛲜y)z
+  
+- Carry lookahead (p.17)
+	- Solution for carry delay
+		- Carry lookahead generator (p.18, p.19)
+	- c0 = 0
+	- c1 = a0b0
+	- c2 = a1b1 + a0b0(a1𛲜b1)
+ 
+- Binary subtractor
+	- Add "M"!
+	- "V == 1" : overflow
+		- for 8-bit (-128 ~127)
+	- underflow
+		- floating point
+		- Too small factor value (e.g. 2^-1000000000)
+		- factor bit size is fixed.
+		- Computer treats this as 0 but with a warning.
+
+### midterm : ~ p.21
