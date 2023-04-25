@@ -5,7 +5,7 @@
 - Associative law
 	- (x * y) * z = x * (y * z) 
 	- for all x, y, z in S
-- Communtative law
+- Commutative law
 	- x * y = y * x
 	- for all x, y in S
 - Identity element

@@ -1,10 +1,16 @@
+## Complement
+- r's (radix)
+	- N <-> r<sup>n</sup> - N (or 0)
+- (r-1)'s (diminished radix)
+	- N <-> (r<sup>n</sup>-1) - N
+
 ## Signed binary
-- +9 == (0 001001)<sub>2</sub>
+- +9 == (00001001)<sub>2</sub>
 - Signed magnitude representation
-	- -9 == (1 0001001)<sub>2</sub>
+	- -9 == (10001001)<sub>2</sub>
 - Signed complement representation
-	- 1's : (1 110110)<sub>2</sub>
-	- 2's : (1 110111)<sub>2</sub>
+	- 1's : (1110110)<sub>2</sub>
+	- 2's : (1110111)<sub>2</sub>
 - Summation and Subtraction
 	- Signed magnitude system follows ordinary arithmetic.
 	- 2's Signed complement system requires only addition.

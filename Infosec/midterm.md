@@ -1,51 +1,64 @@
-- 2
-e.g. A communication is in what layer?
+# 2
+#### A. Communication is in what layer?
+- Data link layer(2) 
+	- **mac address**
+	- **ethernet protocol**
+ 
+- **ARP**
+	- Find device with a MAC address by broadcasting the IP address
+ 
+- Network layer(3)
+	- **IP - outline**
+	- **p.36,37 , port, address**
+		- source address, destination address (4-byte)
 
-mac, ethernet
+- Transport layer(4)
+	- Port number (TCP's address)
+	- **TCP/IP(pg.59~)**
 
-network layer
-IP - outline
-p.36,37 , port, address
+- Application layer(7)
+	- **DNS, HTTP**
+	- **wireshark - how to use, what it does**
 
-ARP 
+**pg.81 - flow of packets through network**
 
-layer 4 pg.59~
-**TCP/IP**
-
-Application
-DNS, HTTP
-
-wireshark - how to use, what it does
-
-pg.81 - flow of packets
-
-- 3
-DNS, (learn host file for DNS)
-
+# 3
+**DNS, (learn host file for DNS)**
+- host file
+	- IP_address domain_name
+	- Mostly empty
+- linux 
+	- /etc/resolv.conf
+- A record
 skip ip tracing
 skip dark web
 skip malware (악성코드)
 
-- 4
-HTTP protocol (with burp)
-header, cookie
-how login works
-session hijacking
-base64 
+# 4
+**HTTP protocol (with burp)**
+**header, cookie**
+**how login works**
+**session hijacking**
+- **base64**
+	- Most used encoding method
 ascii
 encoding, decoding
 
-- 5
-**main ppt file!!**
-hexdump
-classic cryptography
-XOR
+# 5(main!!)
+**hexdump**
+- **classic cryptography**
+	- Caesar cipher
+		- shift
+	- Vigenere
+		- Caesar + key
+- **XOR**
+	- no need of Carry
 pngransome practice
 
-- 6
+# 6
 hashing in cryptography
 skip crc algorithm(just understand what CRC is)
 
-- 7
+# 7
 **All!**
 Asymmetric cryptography

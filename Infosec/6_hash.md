@@ -32,7 +32,7 @@
 	- 32-bit
 	- 64-bit
 	- table versions
-- Initial vector 
+- Initial vector
 	- Usually 0
 
 - Most crc has unique values in the table.- reverse lookup

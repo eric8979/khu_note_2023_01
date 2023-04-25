@@ -2,16 +2,16 @@
 - Single key
 - Fast
 #### AES
-	- Chunk the data in to blocks.
-	- length
-		- IV(128-bits) == block != key(AES-128, AES-192, AES-256)
-	- modes
-		- ECB
-			- Encryption for each block is independent.
-			- Same blocks results in same ciphers.
-		- CBC
-			- block's are dependent with each other.
-			- Each block is XORed with the previous ciphertext block before encryption.
+- Chunk the data in to blocks.
+- length
+	- IV(128-bits) == block != key(AES-128, AES-192, AES-256)
+- modes
+	- ECB
+		- Encryption for each block is independent.
+		- Same blocks results in same ciphers.
+	- CBC
+		- block's are dependent with each other.
+		- each block is xored with the previous ciphertext block before encryption.
 
 ---
  
@@ -20,7 +20,7 @@
 - Use two keys for encryption & decryption.
 
 #### RSA
-- Utilizes difficulty of **prime factorization**(소인수분해)
+- Utilizes difficulty of **prime factorization** of a big number(소인수분해)
 - Usage
 	- Authentication
 	- Digital Signature(전자서명)
@@ -48,7 +48,7 @@
 - Utilizes difficulty of **discrete logarithm problem**
 	- K = pub ^ x mod p
 		- Easy : pub, x, p -> K
-		- Hard : pub, K, p -> x
+		- Hard : K, pub, p -> x
 - Mechanism
 	- p : big prime number
 	- g : integer smaller than p (public)
