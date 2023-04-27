@@ -1,3 +1,8 @@
+### QnA
+- 
+
+---
+
 ### TA + PwnLab
 자대생의 대학원 진학 관련하여 학비규정등 학과장님과 의논하고 알아본 결과들을 아래처럼 안내합니다. 참고바랍니다- 
 현재 입학가능 대학원이 AI대학원, 컴공대학원 이 있고, 올해 사업준비 결과에 따라 내년부터 2개의 대학원이 더 생길 가능성이 있음 (메타버스대학원, 융합보안대학원)  
@@ -18,9 +23,21 @@ TA 도 안하고, 장학생도 아닌경우에도 대학원차원에서 등록�
 
 ---
 
-### 미국 대학원
+### USA Master's
 - GPA : 3.2 ~ 3.8 minimum
-- 미국 박사로 진학시 research experience, paper(논문)
+
+---
+
+## Doctoral Program
+- research experience, paper, other experience
+
+#### Georgia tech
+- https://www.gatech.edu/academics/doctoral-degree-programs
+![[Screen Shot 2023-04-27 at 12.38.31 PM.png]]
+- https://scp.cc.gatech.edu/people-faculty/
+
+#### Carnegie Mellon
+- https://www.cs.cmu.edu/academics/phd/programs
 
 ---
 
