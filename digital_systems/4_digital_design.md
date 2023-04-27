@@ -46,4 +46,11 @@
 		- factor bit size is fixed.
 		- Computer treats this as 0 but with a warning.
 
-### midterm : ~ p.21
+### BCD Adder
+- For addition operation on BCD numbers
+
+### Binary multiplier
+- Uses adder
+
+### Magnitude Comparator
+- A == B, A < B, A > B
