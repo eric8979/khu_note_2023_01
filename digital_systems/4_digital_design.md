@@ -54,3 +54,21 @@
 
 ### Magnitude Comparator
 - A == B, A < B, A > B
+
+### Decoder
+- Fundamental building block in digital electronics.
+- Commonly used to select memory addresses, input/output lines, and other control signals based on binary inputs.
+- 교재 연습문제 4.25, 4.26
+
+### Encoder
+
+### Multiplexer
+- a.k.a MUX
+- Passing only a bit from multiple input bits
+- Quadruple 2 to 1 line (pg.35)
+
+### HDL 4.12
+- Gate level
+- Dataflow modeling
+	- boolean equation 그대로 표현
+- Behavioral modeling
