@@ -37,7 +37,7 @@
 - Source code level
 	- e.g. Using not well used syntax
 	- Not that effective nowadays
-- Binary level (assembly)
+- Binary level (assembly, compiler level)
 	- **Basic Block**
 		- A chunk of code that is run together
 		- check pg.13
@@ -47,5 +47,26 @@
 	- Bogus Control Flow
 		- Overcomplicatin statement that only returns True/False
 		- Adding code that won't run.
-- Tool
-	- LLVM Obfuscator
+	- e.g. LLVM Obfuscator uses the techniques above
+	- Vituralizing based
+		- Using another layer of compilation(virtual CPU)
+		- Like Java and python byte code
+		- But hiding ISA(Instruction Set Architecture) - p.19
+
+### Anti-debugging
+- Using set of properties that would be different from when it's not debugged
+- types
+	- API based
+		- FindWindow API (using class name)
+		- Registry value
+		- IsDebuggerPresent API - flag
+	- Exception handling based - 🧨RE
+		- INT 3 (CC) scanning - pg.28
+		- INT 3 : breakpoint
+		- TRAP flag
+	- data structure based - 🧨RE
+	- anti-virtualization
+		- e.g. virtial box, vmware
+		- e.g. cuckoo
+		- the criteria is vague now
+	- Direct structure access
