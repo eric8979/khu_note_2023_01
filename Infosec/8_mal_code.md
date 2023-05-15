@@ -70,3 +70,21 @@
 		- e.g. cuckoo
 		- the criteria is vague now
 	- Direct structure access
+
+
+- Emulation vs Virtual machine
+	- Hardware usage difference
+	- Emulation
+		- Create hardware software-wise
+
+- Anti-emulation
+
+- Dynamic Binary Instrumentation
+	- Base tech of Emulation
+	- Convert asm to asm
+	- Precise binary anaylsis is available
+
+- Virtualization & Emulation
+	- examples
+		- chroot - OS level
+		- Qemu : open-source Emulator
