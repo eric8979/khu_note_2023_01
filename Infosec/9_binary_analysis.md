@@ -11,3 +11,5 @@
 
 - strace/ltrace
 	- print syscall log
+
+### GDB
