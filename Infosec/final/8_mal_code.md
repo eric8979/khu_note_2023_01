@@ -1,6 +1,6 @@
 - Detecting malicious code
 	- Usually uses **hash** value of an already known malicious code.
-	- Using behaviour of the code. (Not an easy method)
+	- Using behavior of the code. (Not an easy method)
 
 ## Windows PE file
 - All executable file
@@ -13,24 +13,22 @@
 			- Address is usually expressed using **base + offset**
 		- On memory
 			- use Value(which is address on memory)
-			- e.g. AddressOfEntryPoint
+			- e.g. **AddressOfEntryPoint**
 - Resource
-- executable_code(.text section)
-
+- **executable_code(.text section)**
 
 ## Packing
 - 실행압축
-- The real `.text` is zipped therefore harder to analyze statically.
+- The real `.text` section is zipped therefore harder to analyze statically.
 - Static analysis
 	- Reviewing code without running it.
 - Tools
-	- UPX
-		- for compressing rather than security
-	- Themida
+	- **UPX**
+		- for **compressing** rather than security
+	- **Themida**
 		- for security
 		- Kakao PC is packed using Themida to protect their code.
 		- 가상화기반 난독화(?, virtual machine)
-
 
 ## Obfuscation
 - Overcomplicating the code without altering it's function and logic.
@@ -45,10 +43,10 @@
 		- Hide basic blocks order/relation.
 	- Instruction Substitution(overcomplicating)
 	- Bogus Control Flow
-		- Overcomplicatin statement that only returns True/False
+		- Over complicating statement that only returns True/False
 		- Adding code that won't run.
 	- e.g. LLVM Obfuscator uses the techniques above
-	- Vituralizing based
+	- Virtualization based
 		- Using another layer of compilation(virtual CPU)
 		- Like Java and python byte code
 		- But hiding ISA(Instruction Set Architecture) - p.19
